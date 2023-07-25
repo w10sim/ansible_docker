@@ -40,7 +40,7 @@
     dest: /etc/docker/daemon.json
     content: |
       {
-        "registry-mirrors": ["http://localhost:5000 "]
+        "registry-mirrors": ["http://localhost:5000"]
       }
 
 # 6. Restart docker daemon
